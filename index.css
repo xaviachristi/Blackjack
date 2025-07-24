@@ -1,11 +1,17 @@
-h1 {
-    color: goldenrod;
-}
+
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: "AcetoFive.jpeg";
+    background-image: url("AcetoFive.jpeg");
+    background-size: cover; /* no matter how wide, image covers full width of page */
+    text-align: center; /* centre text */
+    color: white; /* text colour */
+    font-weight: bold;
 }
+
+h1 {
+    color: goldenrod;
+} /* overwrites body text styling by specifying h1 */
 
 #message-el {
 
