@@ -16,3 +16,9 @@ h1 {
 #message-el {
 
 }
+
+button {
+    text-color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+}
