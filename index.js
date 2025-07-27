@@ -17,7 +17,7 @@ let playerEl = document.getElementById("player-el")
 playerEl.textContent = player.name + ": $" + player.chips
 
 function getRandomCard() { //function declarations get hoisted to the top = accessible even at line 1, no matter where it's written within the code
-    let randomNumber = Math.floor( Math.random() * 13 ) + 1 //generates random number between 1 and 13
+    let randomNumber = Math.floor( Math.random()*13) + 1 //generates random number between 1 and 13
     if (randomNumber===1) {
         randomNumber=11
     }
